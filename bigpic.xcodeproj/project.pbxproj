@@ -22,7 +22,6 @@
 		4D654F60251AB1A000059D47 /* Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4D654F5F251AB1A000059D47 /* Image.swift */; };
 		4DD34C002520F2EB0099FCD3 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD34BFF2520F2EB0099FCD3 /* ImageViewController.swift */; };
 		4DD34C02252243E50099FCD3 /* DirectoryMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD34C01252243E50099FCD3 /* DirectoryMonitor.swift */; };
-		4DD34C0625229EC80099FCD3 /* CGImageExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DD34C0525229EC80099FCD3 /* CGImageExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -43,7 +42,6 @@
 		4D654F5F251AB1A000059D47 /* Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Image.swift; sourceTree = "<group>"; };
 		4DD34BFF2520F2EB0099FCD3 /* ImageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
 		4DD34C01252243E50099FCD3 /* DirectoryMonitor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DirectoryMonitor.swift; sourceTree = "<group>"; };
-		4DD34C0525229EC80099FCD3 /* CGImageExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CGImageExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -140,7 +138,6 @@
 			isa = PBXGroup;
 			children = (
 				4D654F5B251A362600059D47 /* FileManagerExtensions.swift */,
-				4DD34C0525229EC80099FCD3 /* CGImageExtensions.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -172,7 +169,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1170;
-				LastUpgradeCheck = 1170;
+				LastUpgradeCheck = 1210;
 				ORGANIZATIONNAME = "Cristian Sava";
 				TargetAttributes = {
 					4D654F3E2519638A00059D47 = {
@@ -228,7 +225,6 @@
 				4DD34C002520F2EB0099FCD3 /* ImageViewController.swift in Sources */,
 				4DD34C02252243E50099FCD3 /* DirectoryMonitor.swift in Sources */,
 				4D654F59251969BC00059D47 /* Utils.swift in Sources */,
-				4DD34C0625229EC80099FCD3 /* CGImageExtensions.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +276,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -340,6 +337,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
